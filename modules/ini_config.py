@@ -15,5 +15,3 @@ if not config.sections():
                         }
     with open('config.ini', 'w') as configfile:
         config.write(configfile)
-
-#print (config['DATABASE']['HOST'])
