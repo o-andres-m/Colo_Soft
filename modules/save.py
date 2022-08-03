@@ -1,5 +1,5 @@
 from modules.conn import Conection
-from modules.register import Register
+from modules.classes import Register
 
 
 class Save():

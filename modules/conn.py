@@ -49,9 +49,7 @@ class Conection():
     3) create necesaries tables
 
     """
-
     connect_data = Config()
-
     def conection(self) -> None:
         try:
             self.conn =pymysql.connect( host=     self.connect_data.host,

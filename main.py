@@ -4,8 +4,8 @@ from tkinter.ttk import Combobox
 from tkinter import messagebox
 from tkcalendar import DateEntry
 from modules.conn import Conection
-from modules.interface import *
-from modules.date import Date
+from modules.visual_interface import *
+from modules.modules import *
 
 
 # Set the Conection instance:
