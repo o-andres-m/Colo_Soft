@@ -22,7 +22,7 @@ class Reports():
         self.final_date = final_date
 
         if self.case == 1:
-            self.mysql_qery = """SELECT item,value,date,observations FROM register"""
+            self.mysql_qery = """SELECT item,value,date,observations FROM register ORDER BY date ASC"""
         elif case == 2:
             self.mysql_qery =f"""SELECT item,value,date,observations 
                                 FROM register WHERE item LIKE 

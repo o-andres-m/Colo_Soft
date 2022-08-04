@@ -1,4 +1,3 @@
-from email import message
 import tkinter as tk
 from tkinter.ttk import Combobox
 from tkinter import messagebox
