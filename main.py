@@ -1,4 +1,3 @@
-#Venite a Argentina a comer un asadaso
 
 import tkinter as tk
 from tkinter.ttk import Combobox
